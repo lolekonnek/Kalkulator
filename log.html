@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator HTML</title>
+	<link rel="stylesheet" href="kalkulator.css">
+	<script src="Kalkulator.js"></script>
+</head>
+<body>
+	<a href="wybór.html">
+	<h3>
+			<td class="unicode">&#8617</td> Powrót
+	</h3>
+		</a>
+		<br>
+		<h1>
+		Kalkulator logarytmów
+		</h1>
+		<ul>
+		<li>
+		Logarytm o podstawie b z liczby x
+		<form>
+                <label for="b7">	Podstawa b:</label>
+                <input type="number" id="b7" name="b7">
+                <br>
+				<label for="x">Liczba x :</label>
+                <input type="number" id="x" name="x">
+                <br>
+                <button type="button" onclick="logarytm()">Oblicz wynik</button>
+				<br>
+				
+            </form>
+			<div id="wynik13"></div>
+        </li>
+		</div>
+		<p>
+		<br>
+		<li>
+		Logarytm dzieśętny
+		<form>
+               
+				<label for="x2">Liczba x :</label>
+                <input type="number" id="x2" name="x2">
+                <br>
+                <button type="button" onclick="logarytm10()">Oblicz wynik</button>
+				<br>
+				
+            </form>
+			<div id="wynik14"></div>
+        </li>
+		</div>
+		<p>
+		<br>
+		<li>
+		Logarytm naturalny
+		<form>
+               
+				<label for="x3">Liczba x :</label>
+                <input type="number" id="x3" name="x3">
+                <br>
+                <button type="button" onclick="logarytmn()">Oblicz wynik</button>
+				<br>
+				
+            </form>
+			<div id="wynik15"></div>
+        </li>
+		</div>
+	</ul>
+	</body>
+</html>

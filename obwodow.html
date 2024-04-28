@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator HTML</title>
+	<link rel="stylesheet" href="kalkulator.css">
+	<script src="Kalkulator.js"></script>
+</head>
+<body>
+	<a href="wybór.html">
+	<h3>
+			<td class="unicode">&#8617</td> Powrót
+	</h3>
+		</a>
+		<br>
+    <h1>Kalkulator obwodów</h1>
+
+    <ul>
+        <li>
+		Obwód Kwadratu\Rombu
+            <form>
+                <label for="a6">	Długość boku a:</label>
+                <input type="number" id="a6" name="a6">
+                <br>
+				
+                <button type="button" onclick="okwadrat()">Oblicz obwód</button>
+				<br>
+				
+            </form>
+			<div id="wynik8"></div>
+        </li>
+		</div>
+		<p>
+		<br>
+		   <li>
+		Obwód Prostokątu\Równoległoboku\Deltoidu
+            <form>
+			<p>
+                <label for="a7">	Długość boku a:</label>
+                <input type="number" id="a7" name="a7">
+                <br>
+				<label for="b4">	Długość boku b:</label>
+                <input type="number" id="b4" name="b4">
+                <p>
+                <button type="button" onclick="oprostokat()">Oblicz obwód</button>
+				<br>
+				
+            </form>
+			<div id="wynik9"></div>
+        </li>
+		</div>
+        <br>
+		<p>
+        <li>
+		Obwód Trójkąta
+            <form>
+			<p>
+                <label for="a8">	Długość boku a:</label>
+                <input type="number" id="a8" name="a8">
+                <br>
+				<label for="b5">	Długość boku b:</label>
+                <input type="number" id="b5" name="b5">
+                <br>
+				<label for="c">	Długość podstawy:</label>
+                <input type="number" id="c" name="c">
+				
+                <p>
+                <button type="button" onclick="otrojkat()">Oblicz obwód</button>
+				<br>
+				
+            </form>
+			<div id="wynik10"></div>
+        </li>
+		</div>
+        <br>
+		<p>
+		<li>
+		Obwód Trapezu
+		<form>
+			<p>
+                <label for="a9">	Długość podstawy a:</label>
+                <input type="number" id="a9" name="a9">
+                <br>
+				<label for="b6">	Długość podstawy b:</label>
+                <input type="number" id="b6" name="b7">
+                <br>
+				<label for="c2">	Długość ramjenia c:</label>
+                <input type="number" id="c2" name="c2">
+				<br>
+				<label for="d">	Długość ramjenia d:</label>
+                <input type="number" id="d" name="d">
+                <p>
+                <button type="button" onclick="otrapez()">Oblicz obwód</button>
+				<br>
+				
+            </form>
+			<div id="wynik11"></div>
+        </li>
+		</div>
+        <br>
+		<p>
+		<li>
+		Obwód Koła
+		<form id="koloForm2">
+        <label for="promien2">Promień koła:</label>
+        <input type="number" id="promien2" name="promien2">
+        <button type="button" onclick="okolo()">Oblicz obwód</button>
+		<br>
+    </form>
+    <div id="wynik12"></div>
+	</li>
+	</ul>
+	</body>
+</html>
+
+		

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator HTML</title>
+	<link rel="stylesheet" href="kalkulator.css">
+	<script src="Kalkulator.js"></script>
+</head>
+<body>
+	<a href="wybór.html">
+	<h3>
+			<td class="unicode">&#8617</td> Powrót
+	</h3>
+		</a>
+		<br>
+    <h1>Kalkulator pól</h1>
+
+    <ul>
+        <li>
+		
+            Pole Kwadratu
+            <form>
+                <label for="a1">	Długość boku a:</label>
+                <input type="number" id="a1" name="a1">
+                <br>
+                <button type="button" onclick="kwadrat()">Oblicz pole</button>
+            </form>
+            <div id="wynik"></div>
+        </li>
+		</div>
+        <br>
+		<p>
+        <li>
+            Pole Prostokąta
+            <form>
+                <label for="a2">	Długość boku a:</label>
+                <input type="number" id="a2" name="a2">
+                <br>
+				<br>
+                <label for="b2">	Długość boku b:</label>
+                <input type="number" id="b2" name="b2">
+                <br>
+                <button type="button" onclick="prostokat()">Oblicz pole</button>
+            </form>
+            <div id="wynik2"></div>
+        </li>
+		<p>
+		<br>
+		<li>
+			Pole trójkąta
+			<form>
+                <label for="a3">	Długość boku a:</label>
+                <input type="number" id="a3" name="a3">
+                <br>
+				<br>
+                <label for="h">	Wysokość h:</label>
+                <input type="number" id="h" name="h">
+                <br>
+				<br>
+                <button type="button" onclick="trujkat()">Oblicz pole</button>
+            </form>
+            <div id="wynik3"></div>
+		</li>
+		<p>
+		<br>
+		<li>
+			Pole trapeza
+			<form>
+                <label for="a4">	Długość dolnej podstawy a:</label>
+                <input type="number" id="a4" name="a4">
+                <br>
+				<br>
+				<label for="b3">	Długość górnej podstawy b:</label>
+                <input type="number" id="b3" name="b3">
+                <br>
+				<br>
+                <label for="h2">	Wysokość h:</label>
+                <input type="number" id="h2" name="h2">
+                <br>
+                <button type="button" onclick="trapez()">Oblicz pole</button>
+            </form>
+            <div id="wynik4"></div>
+		</li>
+		<br>
+		<p>
+		<li>
+			Pole równoległoboku
+			<form>
+                <label for="a5">	Długość dolnej podstawy a:</label>
+                <input type="number" id="a5" name="a5">
+                <br>
+				<br>
+                <label for="h3">	Wysokość h:</label>
+                <input type="number" id="h3" name="h3">
+                <br>
+                <button type="button" onclick="rowno()">Oblicz pole</button>
+            </form>
+            <div id="wynik5"></div>
+		</li>
+		<p>
+		<br>
+		<li>
+			Pole deltoidu
+			<form>
+                <label for="d1">	Długość przekątnej d<sub>1</sub>:</label>
+                <input type="number" id="d1" name="d1">
+                <br>
+				<br>
+                <label for="d2">	Długość przekątnej d<sub>2</sub>:</label>
+                <input type="number" id="d2" name="d2">
+                <br>
+                <button type="button" onclick="deltoid()">Oblicz pole</button>
+            </form>
+            <div id="wynik6"></div>
+		</li>
+		<p>
+		<br>
+		<li>
+		Pole koła
+		    <form id="koloForm">
+        <label for="promien">Promień koła:</label>
+        <input type="number" id="promien" name="promien">
+        <button type="button" onclick="obliczPoleKola()">Oblicz pole</button>
+		<br>
+    </form>
+    <div id="wynik7"></div>
+	</li>
+	</ul>
+	</body>
+</html>
